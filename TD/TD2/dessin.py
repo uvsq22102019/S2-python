@@ -5,5 +5,7 @@ root.title("Mon dessin")
 
 canvas = tk.Canvas(root, width = 500, height = 500, bg = "black")
 canvas.grid(row=1, column=1)
+bouton_cercle = tk.Button(racine,text='Cercle',command=dessin disque)
+bouton_=tk.Button()
 
 root.mainloop()
