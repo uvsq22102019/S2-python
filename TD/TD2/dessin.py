@@ -24,5 +24,4 @@ bouton_carre.grid(row=1,column=0)
 bouton_cercle.grid(row=2, column=0)
 button_croix.grid(row=3, column=0)
 
-
 root.mainloop()
