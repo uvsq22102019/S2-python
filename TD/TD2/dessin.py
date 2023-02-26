@@ -24,4 +24,10 @@ bouton_carre.grid(row=1,column=0)
 bouton_cercle.grid(row=2, column=0)
 button_croix.grid(row=3, column=0)
 
+
+
+
+cercle = canvas.create_oval((60, 60), (440, 440), fill="yellow") 
+cercle = canvas.create_oval((80, 80), (420, 420), fill="magenta") 
+cercle = canvas.create_oval((100, 100), (400, 400), fill="red" ) 
 root.mainloop()
