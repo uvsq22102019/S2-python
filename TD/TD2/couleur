@@ -1,0 +1,76 @@
+def get_color(r, g, b):
+    """ Retourne une couleur à partir de ses composantes r, g, b entre 0 et 255"""
+    return '#{:02x}{:02x}{:02x}'.format(r, g, b)
+
+def ecran_aleatoire():
+    pass
+def degrade_gris():
+    pass
+def degrade_2D():
+    pass
+
+import tkinter as tk
+
+root = tk.Tk()
+
+canvas = tk.Canvas(root, width = 256, height = 256, bg = "black")
+canvas.grid(row=1,rowspan=3, column=1)
+
+def draw_pixel(i, j, color):
+    for i in range(canvas.width):
+        for j in range(canvas.height):
+            get_color(255, 255, 255)
+    return
+            
+def aleatoire():
+    pass
+def gris():
+    pass
+def d():
+    pass
+
+bouton_aléatoire = tk.Button(text='Aleatoire',command=aleatoire)
+bouton_degradégris=tk.Button( text='Dégradé gris', command=gris)
+bouton_2d=tk.Button( text='Dégradé 2D', command= d)
+
+bouton_aléatoire.grid(row=1, column=0)
+bouton_degradégris.grid(row=2,column=0)
+bouton_2d.grid(row=3, column=0)
+
+
+
+root.mainloop()
+
+
+
+import tkinter as tk
+
+root = tk.Tk()
+
+
+
+canvas = tk.Canvas(root, width = 500, height = 500, bg = "black")
+canvas.grid(row=1, column=1)
+
+
+x0= 0
+y0=0
+x1= 500
+y1 = 500
+
+n = 5
+
+cercle = canvas.create_oval((x0+20, y0+20), (x1-20, y1-20), fill="green") 
+cercle = canvas.create_oval((x0+40, y0+40), (x1-40, y1-40), fill="black" ) 
+c = canvas.create_oval((x0, y0), (x1, x1), fill= coul[0]) 
+for el in range(1, n):
+    for i in coul:
+        canvas.create_oval((x0+20, y0+20), (x1-20, y1 -20), fill= coul[i])
+    
+
+root.mainloop()
+
+
+
+
+

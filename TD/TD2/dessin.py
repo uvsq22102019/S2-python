@@ -1,4 +1,5 @@
 import tkinter as tk
+import random
 
 root = tk.Tk()
 root.title("Mon dessin")
@@ -6,7 +7,8 @@ root.title("Mon dessin")
 def carre():
     pass
 def cercle():
-    pass
+    canvas.create_oval()
+    random.choice(side)
 def couleur():
     pass
 def croix():
