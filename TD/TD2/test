@@ -1,2 +1,1 @@
-get color
-
+import tkinter as tk
