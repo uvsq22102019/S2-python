@@ -2,7 +2,7 @@ import tkinter as tk
 
 root = tk.Tk()
 
-canvas = tk.Canvas(root, width = 540, height = 540, bg = "black")
+canvas = tk.Canvas(root, width = 540, height = 540, bg = "dark turquoise")
 canvas.grid(row=1, column=1)
 
 
